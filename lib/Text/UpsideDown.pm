@@ -74,6 +74,7 @@ our %upside_down_map = (
     '*' => "\N{LOW ASTERISK}",
     '1' => "\N{DOWNWARDS HARPOON WITH BARB RIGHTWARDS}",
     '3' => "\N{LATIN CAPITAL LETTER OPEN E}",
+	'4' => 'h',
     '6' => '9',
     '7' => "\N{BOPOMOFO LETTER ENG}",
     ';' => "\N{ARABIC SEMICOLON}",
@@ -86,6 +87,7 @@ our %upside_down_map = (
     "\N{UNDERTIE}"  => "\N{CHARACTER TIE}",
     "\N{LEFT SQUARE BRACKET WITH QUILL}" => "\N{RIGHT SQUARE BRACKET WITH QUILL}",
     "\N{THEREFORE}" => "\N{BECAUSE}",
+	"\N{DEGREE SIGN}" => "\N{HALFWIDTH IDEOGRAPHIC FULL STOP}",
 );
 %upside_down_map = (%upside_down_map, reverse %upside_down_map);
 
